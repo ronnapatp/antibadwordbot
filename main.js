@@ -1,6 +1,8 @@
 const Discord = require('discord.js');
 require('dotenv').config();
-const client = new Discord.Client();
+const client = new Discord.Client({ intents: ["GUILDS", "GUILD_MESSAGES"] })
+
+
 
 // import file
 const en = require('./badword/en')

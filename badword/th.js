@@ -21,7 +21,7 @@ module.exports = (client) => {
           // Delete message
           await message.delete();
           console.log(message.author.username , 'was use badword');
-          msg.channel.send("Badword removed! Thai Badword is from ", message.author.tag)
+          message.channel.send(`Badword removed! Thai Badword is from ${message.author.tag} ` )
         }
       });
 };
