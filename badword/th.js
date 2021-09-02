@@ -2,7 +2,6 @@ module.exports = (client) => {
     client.on('message', async message => {
 
 
-        // if message includes discorcl / .ru / knife : Add role "Muted"
         const msg = message.content.toLowerCase();
       
         if (
