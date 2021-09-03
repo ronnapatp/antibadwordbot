@@ -7,7 +7,7 @@ const client = new Discord.Client({ intents: ["GUILDS", "GUILD_MESSAGES"] })
 // import file
 const en = require('./badword/en')
 const th = require('./badword/th')
-
+const ch = require('./badword/ch')
 
 client.on('ready', () => {
     // send message in terminal when run bot
@@ -16,6 +16,7 @@ client.on('ready', () => {
     // run file from badword folder
   en(client)
   th(client)
+  ch(client)
 });
 
 // login
