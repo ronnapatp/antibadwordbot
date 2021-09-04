@@ -15,3 +15,8 @@ $ npm install
 ``` shell
 $ node .
 ```
+# Languages we have
+- English
+- Japanese
+- Chinese
+- Thailand
