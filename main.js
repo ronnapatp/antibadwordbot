@@ -13,6 +13,7 @@ const jp = require('./badword/jp')
 client.on('ready', () => {
     // send message in terminal when run bot
   console.log(`Logged in as ${client.user.tag}!`);
+  client.user.setActivity('that who use badword!', { type: 'WATCHING' })
 
     // run file from badword folder
   en(client)
