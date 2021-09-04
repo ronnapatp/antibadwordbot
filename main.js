@@ -8,6 +8,7 @@ const client = new Discord.Client({ intents: ["GUILDS", "GUILD_MESSAGES"] })
 const en = require('./badword/en')
 const th = require('./badword/th')
 const ch = require('./badword/ch')
+const jp = require('./badword/jp')
 
 client.on('ready', () => {
     // send message in terminal when run bot
