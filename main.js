@@ -18,6 +18,7 @@ client.on('ready', () => {
   en(client)
   th(client)
   ch(client)
+  jp(client)
 });
 
 // login
