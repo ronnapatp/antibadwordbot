@@ -13,7 +13,8 @@ module.exports = (client) => {
           msg.includes('pussy') ||
           msg.includes('shit') ||
           msg.includes('vagina') ||
-          msg.includes('shit') 
+          msg.includes('shit') ||
+          msg.includes('asshole')
       
         ) {
           // Delete message
