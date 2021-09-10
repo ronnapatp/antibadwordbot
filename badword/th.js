@@ -14,7 +14,8 @@ module.exports = (client) => {
           msg.includes('เย็ด') ||
           msg.includes('อับปรี') ||
           msg.includes('อัปรีย์') ||
-          msg.includes('ไอห่า')
+          msg.includes('ไอห่า') ||
+          msg.includes('เลว')
       
         ) {
           // Delete message
