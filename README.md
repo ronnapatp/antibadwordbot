@@ -6,10 +6,10 @@
 $ npm install
 ```
 2. Change `.env.example` to `.env` and insert token
-``` diff
+``` .env
 # .env file
-- DISCORD_TOKEN=
-+ DISCORD_TOKEN=Your token
+DISCORD_TOKEN=
+DISCORD_TOKEN=Your token
 ```
 3. Run bot
 ``` shell
