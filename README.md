@@ -19,4 +19,5 @@ $ node .
 - English
 - Japanese
 - Chinese
-- Thailand
+- Thai
+- French
