@@ -15,7 +15,13 @@ module.exports = (client) => {
           msg.includes('อับปรี') ||
           msg.includes('อัปรีย์') ||
           msg.includes('ไอห่า') ||
-          msg.includes('เลว')
+          msg.includes('เลว') ||
+          msg.includes('หน้าโง่') ||
+          msg.includes('ไอ้ควาย') ||
+          msg.includes('อีแรด') ||
+          msg.includes('แม่ง') ||
+          msg.includes('หน้าด้าน') ||
+          msg.includes('เย็ดแม่')
       
         ) {
           // Delete message
