@@ -21,3 +21,4 @@ $ node .
 - Chinese
 - Thai
 - French
+- Russian
