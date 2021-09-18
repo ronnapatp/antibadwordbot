@@ -10,6 +10,7 @@ const th = require('./badword/th')
 const ch = require('./badword/ch')
 const jp = require('./badword/jp')
 const fr = require('./badword/fr')
+const rs = require('./badword/rs')
 
 client.on('ready', () => {
     // send message in terminal when run bot
@@ -22,6 +23,7 @@ client.on('ready', () => {
   ch(client)
   jp(client)
   fr(client)
+  rs(client)
 });
 
 // login
