@@ -1,5 +1,5 @@
 # Anti badword discord bot
-[click here to invite!](https://github.com/ronnapatp/antibadwordbot)
+[click here to go to github cuz why not?](https://github.com/ronnapatp/antibadwordbot)
 # Install
 1. Install dependencies
 ``` shell
