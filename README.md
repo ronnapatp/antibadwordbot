@@ -5,6 +5,10 @@
 ``` shell
 $ npm install
 ```
+or
+``` shell
+$ yarn
+```
 2. Change `.env.example` to `.env` and insert token
 ``` .env
 # .env file
