@@ -32,9 +32,4 @@ $ node .
 
 # Languages we have
 
-- English
-- Japanese
-- Chinese
-- Thai
-- French
-- Russian
+All languages are supported by [LDNOOBW](https://github.com/LDNOOBW/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words).
