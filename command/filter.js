@@ -24,7 +24,7 @@ module.exports = (client) => {
           console.log(message.author.username, 'is using a badword');
 
           // Send message not to rude
-          message.channel.send(
+          return await message.channel.send(
             `Badword removed! ${country.of(
               words.fileName.toUpperCase()
             )} badword has been sent from <@${message.author.id}> `
