@@ -1,30 +1,38 @@
-const Discord = require('discord.js');
+// Import dotenv, fs and Discord.js
 require('dotenv').config();
-const client = new Discord.Client({ intents: ["GUILDS", "GUILD_MESSAGES"] })
+const Discord = require('discord.js');
+const fs = require('fs');
 
+// Create a new Discord client
+const client = new Discord.Client({ intents: ['GUILDS', 'GUILD_MESSAGES'] });
 
-
-// import file
-const en = require('./badword/en')
-const th = require('./badword/th')
-const ch = require('./badword/ch')
-const jp = require('./badword/jp')
-const fr = require('./badword/fr')
-const rs = require('./badword/rs')
-
+// Handle when bot is ready
 client.on('ready', () => {
-    // send message in terminal when run bot
-  console.log(`Logged in as ${client.user.tag}!`);
-  client.user.setActivity('that who use badword!', { type: 'WATCHING' })
+  // Bot's invitation link
+  const { Permissions } = require('discord.js');
+  const link = client.generateInvite({
+    permissions: [
+      // You can add permissions here
+      Permissions.FLAGS.ADMINISTRATOR,
+    ],
+    scopes: ['bot'],
+  });
+  // Log to console when bot is ready
+  console.log(`Logged in as ${client.user.tag}!\nInvite link : ${link}`);
 
-    // run file from badword folder
-  en(client)
-  th(client)
-  ch(client)
-  jp(client)
-  fr(client)
-  rs(client)
+  // Set bot's presence
+  client.user.setActivity('that who use badword!', { type: 'WATCHING' });
+
+  // Read all files in the commands folder
+  const commandFiles = fs
+    .readdirSync('./command')
+    .filter((file) => file.endsWith('.js'));
+  // Loop through all files in the badWords directory
+  for (const file of commandFiles) {
+    require(`./command/${file}`)(client);
+  }
 });
 
-// login
-client.login();
+// Login to Discord with your app's token
+// Find your bot's token here - https://discordapp.com/developers/applications/me
+client.login(process.env.DISCORD_TOKEN);
