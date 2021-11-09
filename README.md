@@ -32,4 +32,31 @@ $ node .
 
 # Languages we have
 
-All languages are supported by [LDNOOBW](https://github.com/LDNOOBW/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words).
+- Arabic	
+- Chinese	
+- Czech	
+- Danish	
+- Dutch	
+- English	
+- Esperanto	
+- Filipino	
+- Finnish	
+- French	
+- French (CA)
+- German	
+- Hindi	
+- Hungarian	
+- Italian	
+- Japanese	
+- Kabyle	
+- Klingon	
+- Korean	
+- Norwegian	
+- Persian	
+- Polish	
+- Portuguese	
+- Russian	
+- Spanish	
+- Swedish	
+- Thai
+- Turkish	
