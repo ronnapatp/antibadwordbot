@@ -20,8 +20,7 @@ $ yarn
 
 ```.env
 # .env file
-DISCORD_TOKEN=
-DISCORD_TOKEN=Your token
+DISCORD_TOKEN=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 ```
 
 3. Run bot
