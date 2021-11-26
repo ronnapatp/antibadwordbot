@@ -1,34 +1,22 @@
 # Anti badword discord bot
 
-[click here to go to github cuz why not?](https://github.com/ronnapatp/antibadwordbot)
+[Go to How to use?](./.github/howtouse.md)
 
-# Install
+## Contribute
+Read this before contribute on this project
 
-1. Install dependencies
+If you want to add more languages you need to
+- Create file with languages name ex.`th`
+- Add badword
+- Create [pulls](https://github.com/ronnapatp/antibadword/pulls)
 
-```shell
-$ npm install
+If you want to add/fix function on this project you need to
+- Fix/add function
+- Create - Create [pulls](https://github.com/ronnapatp/antibadword/pulls) by 
 ```
-
-or
-
-```shell
-$ yarn
+I add .... function
+I fix ... function
 ```
-
-2. Change `.env.example` to `.env` and insert token
-
-```.env
-# .env file
-DISCORD_TOKEN=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-```
-
-3. Run bot
-
-```shell
-$ node .
-```
-
 # Languages we have
 
 - Arabic	
@@ -58,4 +46,4 @@ $ node .
 - Spanish	
 - Swedish	
 - Thai
-- Turkish	
+- Turkish
