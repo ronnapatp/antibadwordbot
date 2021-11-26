@@ -27,7 +27,7 @@ npm install
 node .
 ```
 In this step you will get invite link in your teminal
-```bash
+```
 Logged in as Bot-name#Tag!
 Invite link : https://discord.com/api/oauth2/authorize?client_id=[Your client id]&scope=bot&permissions=8
 ```
